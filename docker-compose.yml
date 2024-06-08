@@ -1,0 +1,81 @@
+version: '3.9'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.1.0
+    container_name: elasticsearch
+    ports: 
+      - "9200:9200"
+    environment:
+      - ELASTIC_PASSWORD=123change...
+      - KIBANA_PASSWORD=123change...  
+      - discovery.type=single-node
+      - xpack.security.enabled=true
+      - path.data=/usr/share/elasticsearch/data
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    mem_limit: 1g
+    volumes:
+      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      - ./elasticsearch/data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD", "curl", "--location", "-f", "-X", "POST", "http://localhost:9200/_security/user/kibana_system/_password", 
+        "-H", "Content-Type: application/json",
+        "-H", "Authorization: Basic ZWxhc3RpYzoxMjNjaGFuZ2UuLi4=",
+        "--data-raw", "{ \"password\" : \"123change...\" }" ]
+      interval: 5s
+      timeout: 3s
+      retries: 100
+  
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.1.0
+    container_name: kibana
+    ports: 
+      - "5601:5601"
+    environment:
+      - ELASTICSEARCH_USERNAME=kibana_system
+      - ELASTICSEARCH_PASSWORD="123change..."
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - SERVER_NAME=my-kibana
+      - XPACK_SECURITY_ENABLED=true
+      - PATH_DATA=/usr/share/kibana/data
+    volumes:
+      - ./kibana/data:/usr/share/kibana/data
+    links:
+      - elasticsearch
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+
+  backend:
+    container_name: backend_buscador
+    build:
+      context: ./backend
+    environment:
+      - ELASTIC_ENDPOINT=http://elasticsearch:9200
+    volumes:
+      - ./backend/src:/app/src
+      - ./backend/package.json:/app/package.json
+    ports:
+      - ${BACKEND_PORT}:${BACKEND_PORT}
+    depends_on:
+      - elasticsearch
+    restart: on-failure
+
+  front:
+    container_name: frontend_buscador
+    build:
+      context: ./front
+    environment:
+      - REACT_APP_ANIME_API_ENDPOINT=http://localhost:4466
+    volumes:
+      - ./front/src:/app/src
+      - ./front/package.json:/app/package.json
+    ports:
+      - ${FRONTEND_PORT}:${FRONTEND_PORT}
+    depends_on:
+      - backend
+    restart: on-failure
