@@ -18,8 +18,13 @@ git clone https://github.com/NBO2001/-buscador_de_animes_frontend ./front
 
 Remone tudo que é ".env.example" por ".env"
 
+Suba o conteinner:
 
-Depois execute o script para criar o index.
+```bash
+docker-compose up
+```
+
+Depois execute o script para criar o index, que está dentro da pasta charge_elastic.
 
 ```bash
 python3 charge.py
