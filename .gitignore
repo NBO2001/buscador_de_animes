@@ -1,7 +1,7 @@
 *.env
 *.csv
-./elasticsearch/data/*
-./kibana/data/*
+elasticsearch/data/*
+kibana/data/*
 
 
 # Logs

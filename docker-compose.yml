@@ -21,11 +21,9 @@ services:
     volumes:
       - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
       - ./elasticsearch/data:/usr/share/elasticsearch/data
+      - ./elasticsearch/config_user.sh:/usr/share/elasticsearch/config_user.sh
     healthcheck:
-      test: ["CMD", "curl", "--location", "-f", "-X", "POST", "http://localhost:9200/_security/user/kibana_system/_password", 
-        "-H", "Content-Type: application/json",
-        "-H", "Authorization: Basic ZWxhc3RpYzoxMjNjaGFuZ2UuLi4=",
-        "--data-raw", "{ \"password\" : \"123change...\" }" ]
+      test: ["CMD", "./config_user.sh" ]
       interval: 5s
       timeout: 3s
       retries: 100
