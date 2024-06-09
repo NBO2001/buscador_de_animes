@@ -3,7 +3,6 @@ import os
 from dotenv import load_dotenv
 from elasticsearch import Elasticsearch
 from pprint import pprint
-from datetime import datetime
 
 # Load environment variables from .env file
 load_dotenv()
