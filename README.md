@@ -4,7 +4,7 @@
 
    [Anime Dataset - Kaggle](https://www.kaggle.com/datasets/svanoo/myanimelist-dataset?select=anime.csv)
 
-2. Mova o arquivo baixado para a pasta `charge_elastic`.
+2. O arquivo baixado estará em formato ZIP. Extraia o conteúdo e mova o arquivo "anime.csv" para a pasta charge_elastic.
 
 3. Clone os repositórios do backend e frontend:
 
