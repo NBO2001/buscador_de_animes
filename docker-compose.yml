@@ -57,6 +57,7 @@ services:
     volumes:
       - ./backend/src:/app/src
       - ./backend/package.json:/app/package.json
+      - ./backend/logging:/app/logging
     ports:
       - ${BACKEND_PORT}:${BACKEND_PORT}
     depends_on:
