@@ -8,7 +8,7 @@ curl -u elastic:123change... -X POST "localhost:9200/_security/role/app_role" -H
   "cluster": [ "all", "manage", "monitor"],
   "indices": [
     {
-      "names": [ "anime" ],
+      "names": [ "anime", "movies" ],
       "privileges": ["create", "monitor", "manage", "all", "create_index"]
     }
   ]
