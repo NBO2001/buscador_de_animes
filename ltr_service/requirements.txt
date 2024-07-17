@@ -1,0 +1,6 @@
+flask
+pandas
+elasticsearch
+eland
+xgboost
+python-dotenv

@@ -66,6 +66,20 @@ services:
     depends_on:
       - elasticsearch
     restart: on-failure
+  
+  python_ltr:
+    container_name: python_ltr
+    build:
+      context: ./ltr_service
+    environment:
+      - ELASTIC_ENDPOINT=http://elasticsearch:9200
+    volumes:
+      - ./ltr_service:/app
+    ports:
+       - "5000:5000"
+    depends_on:
+      - elasticsearch
+    restart: on-failure
 
   front:
     container_name: frontend_buscador

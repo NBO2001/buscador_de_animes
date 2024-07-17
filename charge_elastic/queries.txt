@@ -1,23 +1,24 @@
-Shingeki no Kyojin	"Shingeki no Kyojin"
-Attack on Titan		"Shingeki no Kyojin"
-dark fantasy anime	"Shingeki no Kyojin|Jujutsu Kaisen|Vampire in the Garden|Kimetsu no Yaiba"
-post-apocalyptic anime	"Shingeki no Kyojin|Neon Genesis Evangelion|Dr. Stone"
-giant monster anime	"Shingeki no Kyojin|Neon Genesis Evangelion|Terra Formars"
-survival anime	"Shingeki no Kyojin|Highschool of the Dead|Tokyo Magnitude 8.0"
-psychological anime	"Elfen Lied|Shingeki no Kyojin|Tokyo Ghoul|Yakusoku no Neverland"
-Fullmetal Alchemist: Brotherhood	"Fullmetal Alchemist: Brotherhood"
-alchemy anime	"Fullmetal Alchemist|Fullmetal Alchemist: Brotherhood"
-military anime	"Military!|Fullmetal Alchemist|Fullmetal Alchemist: Brotherhood|KanColle"
-adventure anime	"Hunter × Hunter|One Piece|Bleach|Naruto|JoJo no Kimyou na Bouken"
-fantasy anime	"One Piece|Shingeki no Kyojin|Yakusoku no Neverland|High School DxD"
-One Punch Man	"One Punch Man"
-parody superhero anime	"Tiger & Bunny|One Punch Man"
-action comedy anime	"Angel Beats!|Fullmetal Alchemist: Brotherhood|One Piece|Hunter × Hunter|One Punch Man"
-overpowered protagonist anime	"One Punch Man|Saiki Kusuo no Ψ-nan|Arifureta Shokugyou de Sekai Saikyou"
-superhero anime	"Charlotte|One Punch Man|Boku no Hero Academia|Mob Psycho 100"
+query,relevante_documents
+Shingeki no Kyojin,"Shingeki no Kyojin"
+Attack on Titan,"Shingeki no Kyojin"
+dark fantasy anime,"Shingeki no Kyojin|Jujutsu Kaisen|Vampire in the Garden|Kimetsu no Yaiba"
+post-apocalyptic anime,"Shingeki no Kyojin|Neon Genesis Evangelion|Dr. Stone"
+giant monster anime,"Shingeki no Kyojin|Neon Genesis Evangelion|Terra Formars"
+survival anime,"Shingeki no Kyojin|Highschool of the Dead|Tokyo Magnitude 8.0"
+psychological anime,"Elfen Lied|Shingeki no Kyojin|Tokyo Ghoul|Yakusoku no Neverland"
+Fullmetal Alchemist: Brotherhood,"Fullmetal Alchemist: Brotherhood"
+alchemy anime,"Fullmetal Alchemist|Fullmetal Alchemist: Brotherhood"
+military anime,"Military!|Fullmetal Alchemist|Fullmetal Alchemist: Brotherhood|KanColle"
+adventure anime,"Hunter × Hunter|One Piece|Bleach|Naruto|JoJo no Kimyou na Bouken"
+fantasy anime,"One Piece|Shingeki no Kyojin|Yakusoku no Neverland|High School DxD"
+One Punch Man,"One Punch Man"
+parody superhero anime,"Tiger & Bunny|One Punch Man"
+action comedy anime,"Angel Beats!|Fullmetal Alchemist: Brotherhood|One Piece|Hunter × Hunter|One Punch Man"
+overpowered protagonist anime,"One Punch Man|Saiki Kusuo no Ψ-nan|Arifureta Shokugyou de Sekai Saikyou"
+superhero anime,"Charlotte|One Punch Man|Boku no Hero Academia|Mob Psycho 100"
+Superhero anime series,"Tiger & Bunny|Charlotte|Boku no Hero Academia"
+My Hero Academia,"Boku no Hero Academia"
 
-
-My Hero Academia
 Dragon Ball Z
 Naruto
 Bleach
