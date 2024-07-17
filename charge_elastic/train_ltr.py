@@ -68,6 +68,10 @@ ltr_config = LTRModelConfig(
         QueryFeatureExtractor(
             feature_name="bm25_genre",
             query={"match": {"genres": "{{query}}"}}
+        ),
+        QueryFeatureExtractor(
+            feature_name="bm25_studios",
+            query={"match": {"studios": "{{query}}"}}
         )
     ]
 )
@@ -81,8 +85,7 @@ def to_named_query(query, query_name):
     return {"bool": {"must": query, "_name": query_name}}
 
 def extract_query_features(query_params, doc_ids):
-   from elasticsearch._sync.client import _quote
-   __path = f"/{_quote("anime")}/_search/template"
+   __path = f"/anime/_search/template"
    __query = {"include_named_queries_score": True}
    __headers = {"accept": "application/json", "content-type": "application/json"}
 
@@ -143,8 +146,7 @@ def extract_query_features(query_params, doc_ids):
 
 
 def extract_query_features_without_docs(query_params):
-   from elasticsearch._sync.client import _quote
-   __path = f"/{_quote("anime")}/_search/template"
+   __path = f"/anime/_search/template"
    __query = {"include_named_queries_score": True}
    __headers = {"accept": "application/json", "content-type": "application/json"}
 
@@ -241,17 +243,18 @@ def _extract_query_features(query_judgements_group):
         # Handle the error as needed
         return None  # Or handle in a different way based on your application
 
-    # Adding a column to the dataframe for each feature:
     for feature_name in fet_name:
         query_judgements_group[feature_name] = np.array(
-            [doc_features[doc_id][feature_name] for doc_id in doc_ids]
+            [doc_features[doc_id][feature_name] if doc_id in doc_features.keys() else 0 for doc_id in doc_ids]
         )
+
 
     return query_judgements_group
 
 # Assuming judgments_df is your DataFrame
 judgments_with_features = judgments_df.groupby("query", group_keys=False).apply(_extract_query_features)
 
+judgments_with_features = judgments_with_features.reset_index(drop=True)
 
 features_names = list(judgments_with_features.columns)[3:]
 
@@ -261,8 +264,9 @@ features_names = list(judgments_with_features.columns)[3:]
 ranker = XGBRanker(
     objective="rank:ndcg",
     eval_metric=["ndcg@10"],
-    early_stopping_rounds=20,
+    early_stopping_rounds=20
 )
+
 
 # Shaping training and eval data in the expected format.
 X = judgments_with_features[features_names]
@@ -290,4 +294,5 @@ ranker.fit(
 )
 
 
+ranker.save_model("../ltr_service/anime_search_sdbn.txt")
 ranker.save_model("anime_search_sdbn.txt")

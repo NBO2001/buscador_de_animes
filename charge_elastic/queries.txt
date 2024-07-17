@@ -18,105 +18,178 @@ overpowered protagonist anime,"One Punch Man|Saiki Kusuo no Ψ-nan|Arifureta Sho
 superhero anime,"Charlotte|One Punch Man|Boku no Hero Academia|Mob Psycho 100"
 Superhero anime series,"Tiger & Bunny|Charlotte|Boku no Hero Academia"
 My Hero Academia,"Boku no Hero Academia"
-
-Dragon Ball Z
-Naruto
-Bleach
-Sword Art Online
-Blue Exorcist
-Black Clover
-Haikyuu!!
-Gintama
-Hataraku Saibou (Cells at Work!)
-Toradora!
-Ouran High School Host Club
-Great Teacher Onizuka
-The Devil is a Part-Timer!
-Konosuba: God's Blessing on This Wonderful World!
-The Disastrous Life of Saiki K.
-Barakamon
-Your Lie in April
-A Silent Voice
-Clannad
-Toradora!
-The Ancient Magus' Bride
-March Comes in Like a Lion
-The Pet Girl of Sakurasou
-The Garden of Words
-5 Centimeters Per Second
-Plastic Memories
-Steins;Gate
-Re:Zero - Starting Life in Another World
-Overlord
-That Time I Got Reincarnated as a Slime
-KonoSuba: God's Blessing on This Wonderful World!
-The Rising of the Shield Hero
-Sword Art Online: Alicization
-No Game No Life
-The Seven Deadly Sins
-Black Butler
-Death Note
-Tokyo Ghoul
-Parasyte
-Another
-Boogiepop Phantom
-Monster
-Psycho-Pass
-Ergo Proxy
-Ghost in the Shell: Stand Alone Complex
-Blood-C
-Monster
-Death Note
-Ergo Proxy
-Psycho-Pass
-Ghost in the Shell: Stand Alone Complex
-B: The Beginning
-The Promised Neverland
-The Perfect Insider
-Gosick
-UN-GO
-Non Non Biyori
-Barakamon
-Silver Spoon
-Great Teacher Onizuka
-Toradora!
-Clannad
-The Pet Girl of Sakurasou
-Hidamari Sketch
-K-On!
-Yuru Camp
-JoJo's Bizarre Adventure
-One Piece
-Fairy Tail
-Rurouni Kenshin
-Gundam Unicorn
-Neon Genesis Evangelion
-Cowboy Bebop
-Trigun
-Yu Yu Hakusho
-Hunter x Hunter
-Demon Slayer: Kimetsu no Yaiba
-The Rising of the Shield Hero
-That Time I Got Reincarnated as a Slime
-The Promised Neverland
-Dr. Stone
-Black Clover
-My Hero Academia
-One Punch Man
-Sword Art Online: Alicization
-Haikyuu!!
-Dragon Ball
-Sailor Moon
-Pokémon
-Yu-Gi-Oh!
-Digimon Adventure
-Cardcaptor Sakura
-Magic Knight Rayearth
-Fushigi Yuugi
-Rurouni Kenshin
-Slayers
+kimi no na wa, "kimi no na wa"
+Your Name,"kimi no na wa"
+Makoto Shinkai films,"Hoshi wo Ou Kodomo|kimi no na wa|Tenki no Ko"
+Children Who Chase Lost Voices,"Hoshi wo Ou Kodomo"
+Tenki no Ko,"Tenki no Ko"
+Weathering with You,"Tenki no Ko"
+Nakitai Watashi wa Neko wo Kaburu,"Nakitai Watashi wa Neko wo Kaburu"
+A Whisker Away,"Nakitai Watashi wa Neko wo Kaburu"
+Tonari no Totoro, "Tonari no Totoro"
+My Neighbor Totoro, "Tonari no Totoro"
+Romantic anime movies,"Hoshi wo Ou Kodomo|kimi no na wa|Tenki no Ko|Nakitai Watashi wa Neko wo Kaburu|Tonari no Totoro"
+Yakusoku no Neverland, "Yakusoku no Neverland"
+The Promised Neverland, "Yakusoku no Neverland"
+Shonen Jump anime adaptations,"Hunter X Hunter|Gintama|Bleach|Jujutsu Kaisen|Black Clover|Death Note"
+Cyberpunk anime,"Akira|Ghost in the Shell|Psycho-Pass|Ergo Proxy"
+Mecha anime,"Neon Genesis Evangelion|Code Geass|Gurren Lagann|Mobile Suit Gundam"
+Slice of life anime,"Clannad|Toradora!|Barakamon|Non Non Biyori"
+Romantic comedy anime,"Toradora!|My Youth Romantic Comedy Is Wrong, As I Expected|Lovely★Complex|Kaguya-sama wa Kokurasetai"
+Isekai anime,"Re|No Game No Life|Sword Art Online|Overlord"
+Sports anime,"Haikyuu!!|Kuroko no Basket|Yuri!!! on Ice|Hajime no Ippo"
+Sci-fi anime,"Steins;Gate|Cowboy Bebop|Psycho-Pass|Planetes"
+Mystery anime,"Death Note|Steins;Gate|Hyouka|Erased"
+Horror anime,"Another|Tokyo Ghoul|Higurashi no Naku Koro ni|Paranoia Agent"
+Romantic drama anime,"Clannad|Your Lie in April|Anohana|5 Centimeters per Second"
+Comedy anime,"One Punch Man|Gintama|Kono Subarashii Sekai ni Shukufuku wo!|Saiki Kusuo no Ψ-nan| Spy X Family"
+Action-packed anime,"Attack on Titan|One Piece|Naruto|Bleach"
+Anime movies,"Spirited Away|Princess Mononoke|Your Name|Akira"
+Classic anime,"Cowboy Bebop|Neon Genesis Evangelion|Akira|Dragon Ball Z"
+High school anime,"Toradora!|My Youth Romantic Comedy Is Wrong, As I Expected|Clannad|K-On!"
+Magical girl anime,"Sailor Moon|Cardcaptor Sakura|Madoka Magica|Shugo Chara!"
+Time travel anime,"Steins;Gate|Erased|The Girl Who Leapt Through Time|Re
+Dragon Ball Z,"Dragon Ball Z"
+Naruto,"Naruto"
+Byousoku 5 Centimeter,"Byousoku 5 Centimeter"
+5 Centimeters Per Second,"Byousoku 5 Centimeter"
+Samurai anime,"Rurouni Kenshin|Samurai Champloo|Gintama|Afro Samurai"
+Ninja anime,"Naruto|Naruto Shippuden|Basilisk|Ninja Scroll"
+Vampire anime,"Hellsing|Vampire Knight|Shiki|Blood+"
+Detective anime,"Detective Conan|Death Note|Monster|Psycho-Pass"
+Ghibli movies,"Spirited Away|My Neighbor Totoro|Princess Mononoke|Howl's Moving Castle"
+Adventure fantasy anime,"Fairy Tail|Made in Abyss|The Rising of the Shield Hero|Inuyasha"
+Dystopian anime,"Attack on Titan|Psycho-Pass|The Promised Neverland|Shinseki Yori"
+War anime,"Attack on Titan|Code Geass|Fullmetal Alchemist: Brotherhood|Kingdom"
+Post-war anime,"Mobile Suit Gundam|Violet Evergarden|Grave of the Fireflies|Now and Then, Here and There"
+Seinen anime,"Berserk|Tokyo Ghoul|Parasyte|Vinland Saga"
+Josei anime,"Nana|Paradise Kiss|Honey and Clover|Kuragehime"
+Martial arts anime,"Baki the Grappler|Kenichi The Mightiest Disciple|Hajime no Ippo|Dragon Ball"
+Shoujo anime,"Fruits Basket|Ouran High School Host Club|Cardcaptor Sakura|Sailor Moon"
+Harem anime,"Tenchi Muyo!|Love Hina|Nisekoi|The World God Only Knows"
+Reverse harem anime,"Ouran High School Host Club|Fruits Basket|Yona of the Dawn|Kamisama Kiss"
+Historical fantasy anime,"Magi The Labyrinth of Magic|The Heroic Legend of Arslan|Fushigi Yuugi|Altair,A Record of Battles"
+Musical anime,"Your Lie in April|Nodame Cantabile|Beck|K-On!"
+Cooking anime, "Shokugeki no Soma|Yakitate!! Japan|Toriko|Ristorante Paradiso"
+Thriller anime, "Death Note|Monster|Psycho-Pass|Erased"
+Family anime, "Spy X Family|Barakamon|Sweetness & Lightning|Usagi Drop"
+Battle royale anime, "Future Diary|Btooom!|Darwin's Game|Danganronpa"
+Political anime, "Code Geass|Legend of the Galactic Heroes|Alderamin on the Sky|No. 6"
+Steampunk anime, "Fullmetal Alchemist: Brotherhood|Steamboy|Last Exile|Kabaneri of the Iron Fortress"
+Music anime,"Nana|Beck|K-On!|Carole & Tuesday"
+Western anime,"Cowboy Bebop|Trigun|Gungrave|Black Lagoon"
+Ghost anime,"Ghost Hunt|Natsume's Book of Friends|Ghost Stories|Another"
+Assassin anime,"Akame ga Kill!|Assassination Classroom|Darker than Black|Gunslinger Girl"
+Mermaid anime,"A Lull in the Sea|Mermaid Forest|My Bride is a Mermaid|Ningyo no Mori"
+Animal anime,"Beastars|Aggretsuko|Wolf Children|Polar Bear Cafe"
+Gore anime,"Hellsing|Elfen Lied|Another|Tokyo Ghoul"
+Transformation anime,"Tokyo Ghoul|Parasyte|The Seven Deadly Sins|Devilman Crybaby"
+Psychological thriller anime,"Death Note|Monster|Psycho-Pass|Paranoia Agent"
+Angelic anime,"Neon Genesis Evangelion|Angel Beats!|Haibane Renmei|A Certain Magical Index"
+Mythical creatures anime,"Monogatari Series|The Seven Deadly Sins|Spice and Wolf|Is It Wrong to Try to Pick Up Girls in a Dungeon?"
+Inspirational anime,"March Comes in Like a Lion|Your Lie in April|Barakamon|Run with the Wind"
+Bleach,"Bleach"
+Sword Art Online,"Sword Art Online"
+Blue Exorcist,"Blue Exorcist"
+Black Clover,"Black Clover"
+Haikyuu!!,"Haikyuu!!"
+Gintama,"Gintama"
+Cells at Work!,"Hataraku Saibou"
+Toradora!,"Toradora!"
+Ouran High School Host Club,"Ouran High School Host Club"
+Great Teacher Onizuka,"Great Teacher Onizuka"
+The Devil is a Part-Timer!,"The Devil is a Part-Timer!"
+Kono Subarashii Sekai ni Shukufuku wo!,"Kono Subarashii Sekai ni Shukufuku wo!"
+Konosuba: God's Blessing on This Wonderful World!,"Kono Subarashii Sekai ni Shukufuku wo!"
+Konosuba,"Kono Subarashii Sekai ni Shukufuku wo!"
+The Disastrous Life of Saiki K.,"Saiki Kusuo no Ψ-nan"
+The Disastrous Life of Saiki K.,"The Disastrous Life of Saiki K."
+Barakamon,"Barakamon"
+Shigatsu wa Kimi no Uso,"Shigatsu wa Kimi no Uso"
+Your Lie in April,"Shigatsu wa Kimi no Uso"
 
 
 
 
 
+
+A Silent Voice: "A Silent Voice"
+Clannad: "Clannad"
+The Ancient Magus' Bride: "The Ancient Magus' Bride"
+March Comes in Like a Lion: "March Comes in Like a Lion"
+The Pet Girl of Sakurasou: "The Pet Girl of Sakurasou"
+The Garden of Words: "The Garden of Words"
+Plastic Memories: "Plastic Memories"
+Steins;Gate: "Steins;Gate"
+Re
+- Starting Life in Another World: "Re
+- Starting Life in Another World"
+Overlord: "Overlord"
+That Time I Got Reincarnated as a Slime: "That Time I Got Reincarnated as a Slime"
+Sword Art Online: Alicization: "Sword Art Online: Alicization"
+No Game No Life: "No Game No Life"
+The Seven Deadly Sins: "The Seven Deadly Sins"
+Black Butler: "Black Butler"
+Death Note: "Death Note"
+Tokyo Ghoul: "Tokyo Ghoul"
+Parasyte: "Parasyte"
+Another: "Another"
+Boogiepop Phantom: "Boogiepop Phantom"
+Monster: "Monster"
+Psycho-Pass: "Psycho-Pass"
+Ergo Proxy: "Ergo Proxy"
+Ghost in the Shell: Stand Alone Complex: "Ghost in the Shell: Stand Alone Complex"
+Blood-C: "Blood-C"
+B: The Beginning: "B: The Beginning"
+The Promised Neverland: "The Promised Neverland"
+The Perfect Insider: "The Perfect Insider"
+Gosick: "Gosick"
+UN-GO: "UN-GO"
+Non Non Biyori: "Non Non Biyori"
+Silver Spoon: "Silver Spoon"
+Hidamari Sketch: "Hidamari Sketch"
+K-On!: "K-On!"
+Yuru Camp: "Yuru Camp"
+JoJo's Bizarre Adventure: "JoJo's Bizarre Adventure"
+Fairy Tail: "Fairy Tail"
+Rurouni Kenshin: "Rurouni Kenshin"
+Gundam Unicorn: "Gundam Unicorn"
+Neon Genesis Evangelion: "Neon Genesis Evangelion"
+Cowboy Bebop: "Cowboy Bebop"
+Trigun: "Trigun"
+Yu Yu Hakusho: "Yu Yu Hakusho"
+Hunter x Hunter: "Hunter x Hunter"
+Demon Slayer: Kimetsu no Yaiba: "Demon Slayer: Kimetsu no Yaiba"
+Dr. Stone: "Dr. Stone"
+Dragon Ball: "Dragon Ball"
+Sailor Moon: "Sailor Moon"
+Pokémon: "Pokémon"
+Yu-Gi-Oh!: "Yu-Gi-Oh!"
+Digimon Adventure: "Digimon Adventure"
+Cardcaptor Sakura: "Cardcaptor Sakura"
+Magic Knight Rayearth: "Magic Knight Rayearth"
+Fushigi Yuugi: "Fushigi Yuugi"
+Slayers: "Slayers"
+Combined Queries and Relevant Documents
+
+Shonen anime: "Bleach|Naruto|One Piece|Hunter x Hunter|Black Clover"
+Isekai anime: "Sword Art Online|Re
+- Starting Life in Another World|Overlord|That Time I Got Reincarnated as a Slime|No Game No Life"
+Supernatural anime: "Blue Exorcist|Tokyo Ghoul|Parasyte|Another|Black Butler"
+Sports anime: "Haikyuu!!|Kuroko no Basket|Yuri!!! on Ice|Hajime no Ippo|Ace of Diamond"
+Comedy anime: "Gintama|Konosuba: God's Blessing on This Wonderful World!|The Disastrous Life of Saiki K.|Barakamon|The Devil is a Part-Timer!"
+High school romance anime: "Toradora!|Clannad|Your Lie in April|The Pet Girl of Sakurasou|Ouran High School Host Club"
+Drama anime: "March Comes in Like a Lion|Your Lie in April|A Silent Voice|Clannad|Plastic Memories"
+Science fiction anime: "Steins;Gate|Ergo Proxy|Ghost in the Shell: Stand Alone Complex|Psycho-Pass|Cowboy Bebop"
+Dark fantasy anime: "Tokyo Ghoul|The Promised Neverland|Parasyte|Another|Attack on Titan"
+Mystery anime: "Death Note|Monster|The Promised Neverland|Gosick|The Perfect Insider"
+Psychological anime: "Death Note|Monster|Psycho-Pass|Ergo Proxy|Boogiepop Phantom"
+Slice of life anime: "Non Non Biyori|Barakamon|Silver Spoon|Hidamari Sketch|Yuru Camp"
+Fantasy adventure anime: "Fairy Tail|Rurouni Kenshin|The Seven Deadly Sins|The Ancient Magus' Bride|Demon Slayer: Kimetsu no Yaiba"
+Mecha anime: "Gundam Unicorn|Neon Genesis Evangelion|Code Geass|Mobile Suit Gundam|Darling in the Franxx"
+Classic anime: "Cowboy Bebop|Neon Genesis Evangelion|Dragon Ball|Yu Yu Hakusho|Sailor Moon"
+Musical anime: "Your Lie in April|Nodame Cantabile|Beck|K-On!|Carole & Tuesday"
+Magical girl anime: "Sailor Moon|Cardcaptor Sakura|Madoka Magica|Shugo Chara!|Magic Knight Rayearth"
+Inspirational anime: "March Comes in Like a Lion|Your Lie in April|Run with the Wind|Barakamon|Hanebado!"
+Detective anime: "Detective Conan|Death Note|Monster|Psycho-Pass|The Perfect Insider"
+Romantic comedy anime: "Toradora!|Ouran High School Host Club|My Youth Romantic Comedy Is Wrong, As I Expected|Lovely★Complex|Kaguya-sama: Love is War"

@@ -35,7 +35,11 @@ ltr_config = LTRModelConfig(
         QueryFeatureExtractor(feature_name="phrase_match_title", query={"match_phrase": {"title": "{{query}}"}}),
         QueryFeatureExtractor(feature_name="phrase_match_synopsis", query={"match_phrase": {"synopsis": "{{query}}"}}),
         QueryFeatureExtractor(feature_name="match_synopsis_and", query={"match": {"title": {"query": "{{query}}", "operator": "and"}}}),
-        QueryFeatureExtractor(feature_name="bm25_genre", query={"match": {"genres": "{{query}}"}})
+        QueryFeatureExtractor(feature_name="bm25_genre", query={"match": {"genres": "{{query}}"}}),
+        QueryFeatureExtractor(
+            feature_name="bm25_studios",
+            query={"match": {"studios": "{{query}}"}}
+        )
     ]
 )
 
@@ -64,7 +68,8 @@ def extract_query_features_without_docs(query_params):
 
     source = json.dumps({
         "query": {"bool": {"should": queries}},
-        "_source": fields_to_get + additional_features
+        "_source": fields_to_get + additional_features,
+        "size": 100
     })
 
     __body = {"source": source, "params": {**query_params}}
@@ -89,7 +94,7 @@ def extract_query_features_without_docs(query_params):
 
     df = pd.DataFrame.from_dict(documents, orient='index').reset_index().rename(columns={"index": "anime_id"})
     df2 = pd.DataFrame.from_dict(animes_response, orient='index').reset_index().rename(columns={"index": "anime_id"})
-
+    
     return df, df2, int(complete_response['took'])
 
 # Load the XGBoost model
@@ -112,10 +117,7 @@ def search_ltr():
         # Extract features and anime details
         features, animes, took = extract_query_features_without_docs({"query": query})
 
-
         feature_names_to_predict = features.columns.drop('anime_id')
-
-        print("feature_names_to_predict", feature_names_to_predict)
 
         # Predict relevance scores
         dmatrix = xgb.DMatrix(features[feature_names_to_predict])
