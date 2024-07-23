@@ -39,6 +39,15 @@ ltr_config = LTRModelConfig(
         QueryFeatureExtractor(
             feature_name="bm25_studios",
             query={"match": {"studios": "{{query}}"}}
+        ),
+        QueryFeatureExtractor(
+            feature_name="score_pop",
+            query={
+                "script_score": {
+                    "query": {"exists": {"field": "members_count"}},
+                    "script": {"source": "return doc['members_count'].value/10000000.0"},
+                }
+            }
         )
     ]
 )

@@ -58,6 +58,15 @@ ltr_config = LTRModelConfig(
         QueryFeatureExtractor(
             feature_name="bm25_studios",
             query={"match": {"studios": "{{query}}"}}
+        ),
+        QueryFeatureExtractor(
+            feature_name="score_pop",
+            query={
+                "script_score": {
+                    "query": {"exists": {"field": "members_count"}},
+                    "script": {"source": "return doc['members_count'].value/10000000.0"},
+                }
+            }
         )
     ]
 )
@@ -234,6 +243,7 @@ features_names = list(judgments_with_features.columns)[3:]
 # Shaping training and eval data in the expected format.
 X = judgments_with_features[features_names]
 y = judgments_with_features["label"]
+
 groups = judgments_with_features["query"]
 
 # Split the dataset in two parts respectively used for training and evaluation of the model.
